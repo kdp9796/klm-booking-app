@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KLM Booking App</string>
+
+    <string name="user_account">Welcome to User Account</string>
+    <string name="error">Unknown Error</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+    <string name="fab_clicked">Booking Action Clicked</string>
+    <string name="booking_reference">Booking Reference</string>
+    <string name="departure">Departure</string>
+    <string name="round_trip">Round trip</string>
+    <string name="total_trip">Total Trip Duration</string>
+    <string name="transfer_time">Transfer Time:</string>
+    <string name="bookings">Bookings</string>
+    <string name="account">Account</string>
+    <string name="no_bookings_found">No bookings found</string>
+
+</resources>
