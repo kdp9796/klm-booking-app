@@ -1,0 +1,184 @@
+{
+  "currentBookings": [
+    {
+      "id": "1",
+      "bookingId": "KLM001",
+      "source": "Amsterdam",
+      "destination": "Paris",
+      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
+      "departureDate": "2026-11-20",
+      "arrivalDate": "2026-11-20",
+      "flightNumber": "KL122",
+      "passengerCount": 4,
+      "tripDuration": "5h 10m",
+      "status": "UPCOMING",
+      "timeline": [
+        {
+          "id": "1",
+          "type": "FLIGHT",
+          "date": "sat,oct 21",
+          "scheduledTime": "07.05",
+          "actualTime": "07.01",
+          "location": "Pau,Pau Payrenees Airport",
+          "status": "ARRIVED"
+        },
+        {
+          "id": "2",
+          "type": "TRANSFER",
+          "transferDuration": " 1 hour"
+        },
+        {
+          "id": "3",
+          "type": "FLIGHT",
+          "date": "sat,oct 21",
+          "scheduledTime": "09.05",
+          "actualTime": "09.01",
+          "location": "Paris,Paris-Charles de Gauelle airport",
+          "status": "ARRIVED"
+        },
+        {
+          "id": "4",
+          "type": "FLIGHT",
+          "date": "sat,oct 21",
+          "scheduledTime": "08.05",
+          "actualTime": "09.01",
+          "location": "Paris,Paris-Charles de Gauelle airport"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "bookingId": "KLM002",
+      "source": "Amsterdam",
+      "destination": "London",
+      "imageUrl": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=1200",
+      "departureDate": "2026-11-24",
+      "arrivalDate": "2026-11-24",
+      "flightNumber": "KL555",
+      "passengerCount": 1,
+      "tripDuration": "1h 25m",
+      "status": "UPCOMING",
+      "timeline": [
+        {
+          "id": "1",
+          "type": "FLIGHT",
+          "date": "Sun,nov 8",
+          "scheduledTime": "11.25",
+          "actualTime": "11.20",
+          "location": "Pau,Pau Payrenees Airport",
+          "status": "ARRIVED"
+        },
+        {
+          "id": "2",
+          "type": "FLIGHT",
+          "date": "Sun,nov 8",
+          "scheduledTime": "12.50",
+          "actualTime": "12.45",
+          "location": "Paris,Paris-Charles de Gauelle airport",
+          "status": "ARRIVED"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "bookingId": "KLM003",
+      "source": "Amsterdam",
+      "destination": "Italy",
+      "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1200",
+      "departureDate": "2026-11-26",
+      "arrivalDate": "2026-11-26",
+      "flightNumber": "KL565",
+      "passengerCount": 3,
+      "tripDuration": "1h 25m",
+      "status": "UPCOMING",
+      "timeline": [
+        {
+          "id": "1",
+          "type": "FLIGHT",
+          "date": "Sun,nov 8",
+          "scheduledTime": "11.25",
+          "actualTime": "11.20",
+          "location": "Pau,Pau Payrenees Airport",
+          "status": "ARRIVED"
+        },
+        {
+          "id": "2",
+          "type": "FLIGHT",
+          "date": "Sun,nov 8",
+          "scheduledTime": "12.50",
+          "actualTime": "12.45",
+          "location": "Paris,Paris-Charles de Gauelle airport",
+          "status": "ARRIVED"
+        }
+      ]
+    }
+  ],
+  "pastBookings": [
+    {
+      "id": "4",
+      "bookingId": "KLM004",
+      "source": "Rome",
+      "destination": "Berlin",
+      "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200",
+      "departureDate": "2026-03-11",
+      "arrivalDate": "2026-03-11",
+      "flightNumber": "KL233",
+      "passengerCount": 2,
+      "tripDuration": "1h 25m",
+      "status": "COMPLETED",
+      "timeline": [
+        {
+          "id": "1",
+          "type": "FLIGHT",
+          "date": "Sun,nov 8",
+          "scheduledTime": "11.25",
+          "actualTime": "11.20",
+          "location": "Pau,Pau Payrenees Airport",
+          "status": "ARRIVED"
+        },
+        {
+          "id": "2",
+          "type": "FLIGHT",
+          "date": "Sun,nov 8",
+          "scheduledTime": "12.50",
+          "actualTime": "12.45",
+          "location": "Paris,Paris-Charles de Gauelle airport",
+          "status": "ARRIVED"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "bookingId": "KLM002",
+      "source": "Amsterdam",
+      "destination": "London",
+      "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200",
+      "departureDate": "2025-11-24",
+      "arrivalDate": "2025-11-24",
+      "flightNumber": "KLm575",
+      "passengerCount": 1,
+      "tripDuration": "1h 25m",
+      "status": "COMPLETED",
+      "timeline": [
+        {
+          "id": "1",
+          "type": "FLIGHT",
+          "date": "Sun,nov 24",
+          "scheduledTime": "11.25",
+          "actualTime": "11.20",
+          "location": "Pau,Pau Payrenees Airport",
+          "status": "ARRIVED"
+        },
+        {
+          "id": "2",
+          "type": "FLIGHT",
+          "date": "Sun,nov 24",
+          "scheduledTime": "12.50",
+          "actualTime": "12.45",
+          "location": "Paris,Paris-Charles de Gauelle airport",
+          "status": "ARRIVED"
+        }
+      ]
+    }
+  ]
+}
